@@ -1,7 +1,7 @@
 const links = [
   {
     title: 'Join Community',
-    subtitle: 'Scale your personal brand',
+    subtitle: 'Learn how money works',
     href: 'https://www.patreon.com/cw/saifcommunity',
     glow: 'hover:shadow-[0_0_24px_rgba(139,92,246,0.25)]',
   },
