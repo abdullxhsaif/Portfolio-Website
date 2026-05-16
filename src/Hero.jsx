@@ -14,9 +14,9 @@ export default function Hero() {
         className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight"
         style={{ fontFamily: "'Poppins', sans-serif" }}
       >
-        An ecosystem that{' '}
+        An Ecosystem That{' '}
         <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-          evolves with you.
+          Evolves With You.
         </span>
       </h1>
 
