@@ -14,15 +14,15 @@ export default function Hero() {
         className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight"
         style={{ fontFamily: "'Poppins', sans-serif" }}
       >
-        Build a personal brand{' '}
+        An ecosystem that{' '}
         <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">
-          that converts.
+          evolves with you.
         </span>
       </h1>
 
       {/* Subtext */}
       <p className="text-gray-400 text-base sm:text-lg leading-relaxed max-w-sm">
-        Scale your presence. Build authority. Turn attention into opportunity with focused systems.
+        {/* Scale your presence. Build authority. Turn attention into opportunity with focused systems. */}
       </p>
     </div>
   )
