@@ -2,7 +2,7 @@ const links = [
   {
     title: 'Join Community',
     subtitle: 'Learn how money works',
-    href: 'https://www.patreon.com/cw/saifcommunity',
+    href: import.meta.env.VITE_PATREON_URL || 'https://www.patreon.com/cw/saifcommunity',
     glow: 'hover:shadow-[0_0_28px_rgba(139,92,246,0.3)]',
     badge: 'Community',
     badgeColor: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
@@ -15,7 +15,7 @@ const links = [
   {
     title: 'Explore Library',
     subtitle: 'Self development eBooks',
-    href: 'https://whop.com/joined/saif-library-a7cd',
+    href: import.meta.env.VITE_WHOP_URL || 'https://whop.com/joined/saif-library-a7cd',
     glow: 'hover:shadow-[0_0_28px_rgba(96,165,250,0.25)]',
     badge: 'Library',
     badgeColor: 'bg-blue-500/20 text-blue-300 border-blue-500/30',
