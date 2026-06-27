@@ -2,6 +2,8 @@ import './App.css'
 import Hero from './Hero'
 import ActionLinks from './Actionlinks'
 import Projects from './Projects'
+import Testimonials from './Testimonials'
+import Newsletter from './Newsletter'
 import Socials from './Socials'
 import Footer from './Footer'
 
@@ -35,7 +37,15 @@ export default function App() {
         <div className="animate-fade-up delay-200">
           <ActionLinks />
         </div>
-        <Projects />
+        <div className="animate-fade-up delay-300">
+          <Projects />
+        </div>
+        <div className="animate-fade-up delay-400">
+          <Testimonials />
+        </div>
+        <div className="animate-fade-up delay-500">
+          <Newsletter />
+        </div>
         <div className="animate-fade-up delay-600">
           <Socials />
         </div>
