@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './Hero'
 import ActionLinks from './Actionlinks'
+import Projects from './Projects'
 import Socials from './Socials'
 import Footer from './Footer'
 
@@ -28,10 +29,19 @@ export default function App() {
       />
 
       <div className="relative z-10 w-full max-w-md mx-auto flex flex-col gap-8">
-        <Hero />
-        <ActionLinks />
-        <Socials />
-        <Footer />
+        <div className="animate-fade-up delay-100">
+          <Hero />
+        </div>
+        <div className="animate-fade-up delay-200">
+          <ActionLinks />
+        </div>
+        <Projects />
+        <div className="animate-fade-up delay-600">
+          <Socials />
+        </div>
+        <div className="animate-fade-up delay-700">
+          <Footer />
+        </div>
       </div>
     </div>
   )
