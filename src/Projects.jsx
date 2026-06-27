@@ -1,9 +1,13 @@
+const SITE_URL = import.meta.env.VITE_SITE_URL || 'https://saif-ecosystem.vercel.app'
+const PATREON_URL = import.meta.env.VITE_PATREON_URL || 'https://www.patreon.com/cw/saifcommunity'
+const WHOP_URL = import.meta.env.VITE_WHOP_URL || 'https://whop.com/joined/saif-library-a7cd'
+
 const projects = [
   {
     title: 'Saif Ecosystem',
     description: 'A personal link hub to scale presence, build authority, and turn attention into opportunity.',
     tags: ['React', 'Vite', 'Tailwind'],
-    href: 'https://saif-ecosystem.vercel.app',
+    href: SITE_URL,
     status: 'Live',
     statusColor: 'bg-green-500/20 text-green-400 border-green-500/30',
     glow: 'hover:shadow-[0_0_24px_rgba(139,92,246,0.2)]',
@@ -13,7 +17,7 @@ const projects = [
     title: 'Saif Community',
     description: 'An exclusive community focused on financial education and building real-world wealth systems.',
     tags: ['Community', 'Finance', 'Growth'],
-    href: 'https://www.patreon.com/cw/saifcommunity',
+    href: PATREON_URL,
     status: 'Active',
     statusColor: 'bg-purple-500/20 text-purple-400 border-purple-500/30',
     glow: 'hover:shadow-[0_0_24px_rgba(96,165,250,0.2)]',
@@ -23,7 +27,7 @@ const projects = [
     title: 'Saif Library',
     description: 'A curated collection of self-development eBooks to accelerate your personal and financial growth.',
     tags: ['eBooks', 'Education', 'Self-Dev'],
-    href: 'https://whop.com/joined/saif-library-a7cd',
+    href: WHOP_URL,
     status: 'Active',
     statusColor: 'bg-blue-500/20 text-blue-400 border-blue-500/30',
     glow: 'hover:shadow-[0_0_24px_rgba(96,165,250,0.2)]',
@@ -69,7 +73,7 @@ export default function Projects() {
             {/* Description */}
             <p className="text-gray-500 text-xs leading-relaxed">{p.description}</p>
 
-            {/* Tags */}
+            {/* Tags + arrow */}
             <div className="flex items-center justify-between">
               <div className="flex gap-1.5 flex-wrap">
                 {p.tags.map((tag) => (
