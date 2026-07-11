@@ -17,6 +17,12 @@ const links = [
     href: 'https://postcraft-ai-zqr3.vercel.app',
     glow: 'hover:shadow-[0_0_24px_rgba(244,114,182,0.22)]',
   },
+  {
+    title: 'Try ClauseCheck',
+    subtitle: 'AI contract risk analyzer',
+    href: 'https://clausecheck-orcin.vercel.app',
+    glow: 'hover:shadow-[0_0_24px_rgba(52,211,153,0.24)]',
+  },
 ]
 
 export default function ActionLinks() {
