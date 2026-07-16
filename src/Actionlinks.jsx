@@ -23,6 +23,12 @@ const links = [
     href: 'https://clausecheck-orcin.vercel.app',
     glow: 'hover:shadow-[0_0_24px_rgba(52,211,153,0.24)]',
   },
+  {
+    title: 'Try InterviewAce',
+    subtitle: 'AI interview prep coach',
+    href: 'https://interviewace-lyart.vercel.app',
+    glow: 'hover:shadow-[0_0_24px_rgba(129,140,248,0.24)]',
+  },
 ]
 
 export default function ActionLinks() {
