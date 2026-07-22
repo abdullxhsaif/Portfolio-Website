@@ -29,6 +29,12 @@ const links = [
     href: 'https://interviewace-lyart.vercel.app',
     glow: 'hover:shadow-[0_0_24px_rgba(129,140,248,0.24)]',
   },
+  {
+    title: 'Try ListingLift',
+    subtitle: 'AI real estate listing kit',
+    href: 'https://listinglift-theta.vercel.app',
+    glow: 'hover:shadow-[0_0_24px_rgba(59,91,240,0.24)]',
+  },
 ]
 
 export default function ActionLinks() {
